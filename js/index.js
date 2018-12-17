@@ -61,18 +61,47 @@ var icons = [
 
 
 var projects = [
-{ project: 'Markdown Previewer', description: 'JavaScript, jQuery, Sass, Redux and React', src: 'https://i.ibb.co/tzHM9Zs/2011965-Krqy-BM-small-42d76ca2-9d5e-41e9-b464-b5a19a9e7944-1.png', graph: graphs[1], codepen: 'https://codepen.io/1xwebbyx1/full/KrqyBM', github: 'https://github.com/1XWebbyX1/markdown-previewer' },
-{ project: 'Documentation Page', description: 'JavaScript, Sass, jQuery and React', src: 'https://i.ibb.co/92LFwY3/2011965-LXVQz-W-6593663f-d6eb-4c4e-b0ac-d3ac3f2f613b-1.png', graph: graphs[0], codepen: 'https://codepen.io/1xwebbyx1/full/LXVQzW', github: 'https://github.com/1XWebbyX1/documentation-page' },
-{ project: 'Pomodoro Clock', description: 'JavaScript, jQuery, Redux, Sass and React', src: 'https://i.ibb.co/54pfCqJ/2011965-Re-Xga-R-small-c71e81da-b2ad-47cb-95b2-cc8d7ec36d54-1.png', graph: graphs[7], codepen: 'https://codepen.io/1xwebbyx1/full/ReXgaR', github: 'https://github.com/1XWebbyX1/pomodoro-clock' },
-{ project: 'Quote Machine', description: 'JavaScript, jQuery, jQuery-AJAX, Sass and React', src: 'https://i.ibb.co/4W76rHq/2011965-WYg-Rze-small-09085b79-ca1d-4e22-be34-d74eb6a33518-1.png', graph: graphs[4], codepen: 'https://codepen.io/1xwebbyx1/full/XyKXxz', github: 'https://github.com/1XWebbyX1/quote-machine' },
-{ project: 'Survey Form', description: 'JavaScript, jQuery, Sass and React', src: 'https://i.ibb.co/FYytGdW/Screen-Shot-2018-12-11-at-13-37-00-2.png', graph: graphs[5], codepen: 'https://codepen.io/1xwebbyx1/full/NEPymW', github: 'https://github.com/1XWebbyX1/survey-form' },
-{ project: 'Calculator', description: 'JavaScript, jQuery, Redux, Sass and React', src: 'https://s3-us-west-2.amazonaws.com/i.cdpn.io/2011965.zMdENQ.small.b994a06c-abaf-4622-a133-ae8f82ee0b05.png', graph: graphs[8], codepen: 'https://codepen.io/1xwebbyx1/full/zMdENQ', github: 'https://github.com/1XWebbyX1/calculator' },
-{ project: 'Product Landing Page', description: 'JavaScript, jQuery, mousewheel, Sass and React', src: 'https://i.ibb.co/v3C4qW3/2011965-VVv-Gdw-small-9be0de7e-2c70-4644-a83b-1723cfe7d340-1.png', graph: graphs[6], codepen: 'https://codepen.io/1xwebbyx1/full/VVvGdw', github: 'https://github.com/1XWebbyX1/product-landing-page' },
-{ project: 'Drum Machine', description: 'JavaScript, jQuery, Sass and React', src: 'https://i.ibb.co/h74v259/2011965-LXQBap-small-ce2c9b4a-bd56-4e02-8754-ff559779b0cb-1.png', graph: graphs[2], codepen: 'https://codepen.io/1xwebbyx1/full/LXQBap', github: 'https://github.com/1XWebbyX1/drum-machine' },
-{ project: 'Tribute Page', description: 'JavaScript, jQuery, HTML and Sass', src: 'https://s3-us-west-2.amazonaws.com/i.cdpn.io/2011965.mQBXJJ.small.03687f15-d51d-40c5-b513-103fe96f1ca5.png', graph: graphs[3], codepen: 'https://codepen.io/1xwebbyx1/full/mQBXJJ', github: 'https://github.com/1XWebbyX1/tribute-page' }];
+{ project: 'Markdown Previewer', description: 'JavaScript, jQuery, Sass, Redux and React', graph: graphs[1], codepen: 'https://codepen.io/1xwebbyx1/full/KrqyBM', github: 'https://github.com/1XWebbyX1/markdown-previewer' },
+{ project: 'Documentation Page', description: 'JavaScript, Sass, jQuery and React', graph: graphs[0], codepen: 'https://codepen.io/1xwebbyx1/full/LXVQzW', github: 'https://github.com/1XWebbyX1/documentation-page' },
+{ project: 'Pomodoro Clock', description: 'JavaScript, jQuery, Redux, Sass and React', graph: graphs[7], codepen: 'https://codepen.io/1xwebbyx1/full/ReXgaR', github: 'https://github.com/1XWebbyX1/pomodoro-clock' },
+{ project: 'Quote Machine', description: 'JavaScript, jQuery, jQuery-AJAX, Sass and React', graph: graphs[4], codepen: 'https://codepen.io/1xwebbyx1/full/XyKXxz', github: 'https://github.com/1XWebbyX1/quote-machine' },
+{ project: 'Survey Form', description: 'JavaScript, jQuery, Sass and React', graph: graphs[5], codepen: 'https://codepen.io/1xwebbyx1/full/NEPymW', github: 'https://github.com/1XWebbyX1/survey-form' },
+{ project: 'Calculator', description: 'JavaScript, jQuery, Redux, Sass and React', graph: graphs[8], codepen: 'https://codepen.io/1xwebbyx1/full/zMdENQ', github: 'https://github.com/1XWebbyX1/calculator' },
+{ project: 'Product Landing Page', description: 'JavaScript, jQuery, mousewheel, Sass and React', graph: graphs[6], codepen: 'https://codepen.io/1xwebbyx1/full/VVvGdw', github: 'https://github.com/1XWebbyX1/product-landing-page' },
+{ project: 'Drum Machine', description: 'JavaScript, jQuery, Sass and React', graph: graphs[2], codepen: 'https://codepen.io/1xwebbyx1/full/LXQBap', github: 'https://github.com/1XWebbyX1/drum-machine' },
+{ project: 'Tribute Page', description: 'JavaScript, jQuery, HTML and Sass', graph: graphs[3], codepen: 'https://codepen.io/1xwebbyx1/full/mQBXJJ', github: 'https://github.com/1XWebbyX1/tribute-page' }];
 
 //-----------------------------------------------------------------------------
 
+
+//image fallback sources for browser compatibility--------------------------------------------
+var fallback = [
+'https://i.ibb.co/tzHM9Zs/2011965-Krqy-BM-small-42d76ca2-9d5e-41e9-b464-b5a19a9e7944-1.png',
+'https://i.ibb.co/92LFwY3/2011965-LXVQz-W-6593663f-d6eb-4c4e-b0ac-d3ac3f2f613b-1.png',
+'https://i.ibb.co/54pfCqJ/2011965-Re-Xga-R-small-c71e81da-b2ad-47cb-95b2-cc8d7ec36d54-1.png',
+'https://i.ibb.co/4W76rHq/2011965-WYg-Rze-small-09085b79-ca1d-4e22-be34-d74eb6a33518-1.png',
+'https://i.ibb.co/FYytGdW/Screen-Shot-2018-12-11-at-13-37-00-2.png',
+'https://s3-us-west-2.amazonaws.com/i.cdpn.io/2011965.zMdENQ.small.b994a06c-abaf-4622-a133-ae8f82ee0b05.png',
+'https://i.ibb.co/v3C4qW3/2011965-VVv-Gdw-small-9be0de7e-2c70-4644-a83b-1723cfe7d340-1.png',
+'https://i.ibb.co/h74v259/2011965-LXQBap-small-ce2c9b4a-bd56-4e02-8754-ff559779b0cb-1.png',
+'https://s3-us-west-2.amazonaws.com/i.cdpn.io/2011965.mQBXJJ.small.03687f15-d51d-40c5-b513-103fe96f1ca5.png'];
+
+//--------------------------------------------------------------------------------------------
+
+
+//image in webp for web performance-----------------------------------------------------------
+var src = [
+'http://a.webpurr.com/5zdn.webp',
+'https://i.ibb.co/92LFwY3/2011965-LXVQz-W-6593663f-d6eb-4c4e-b0ac-d3ac3f2f613b-1.png',
+'http://a.webpurr.com/BMZy.webp',
+'http://a.webpurr.com/gvAr.webp',
+'http://a.webpurr.com/p8nE.webp',
+'https://s3-us-west-2.amazonaws.com/i.cdpn.io/2011965.zMdENQ.small.b994a06c-abaf-4622-a133-ae8f82ee0b05.png',
+'http://a.webpurr.com/Gl7K.webp',
+'http://a.webpurr.com/4zvE.webp',
+'https://s3-us-west-2.amazonaws.com/i.cdpn.io/2011965.mQBXJJ.small.03687f15-d51d-40c5-b513-103fe96f1ca5.png'];
+
+//---------------------------------------------------------------------------------------------------------
 
 //preload images __________________________________________________________
 function preloadImage(url)
@@ -82,8 +111,8 @@ function preloadImage(url)
 }
 
 function load() {
-  projects.map(function (a) {
-    preloadImage(a.src);
+  src.map(function (a) {
+    preloadImage(a);
   });
 }
 
@@ -148,6 +177,20 @@ Lines = function (_React$Component2) {_inherits(Lines, _React$Component2);functi
 
 
 
+
+
+//feature detection for webp support----------------------------
+function hasWebP() {
+  var rv = $.Deferred();
+  var img = new Image();
+  img.onload = function () {rv.resolve();};
+  img.onerror = function () {rv.reject();};
+  img.src = 'http://www.gstatic.com/webp/gallery/1.webp';
+  return rv.promise();
+}
+//----------------------------------------------------------------  
+
+
 //PROJECTS SECTION______________________________________________________________
 var Projects = function (_React$Component3) {_inherits(Projects, _React$Component3);function Projects() {_classCallCheck(this, Projects);return _possibleConstructorReturn(this, (Projects.__proto__ || Object.getPrototypeOf(Projects)).apply(this, arguments));}_createClass(Projects, [{ key: 'render', value: function render()
     {
@@ -165,22 +208,60 @@ Article = function (_React$Component4) {_inherits(Article, _React$Component4);
     props));
     _this4.state = {
       index: 0,
+      arr: src,
       project: function project() {return projects[this.index].project;},
       description: function description() {return projects[this.index].description;},
-      src: function src() {return projects[this.index].src;},
+      src: function src() {return this.arr[this.index];},
       graph: function graph() {return projects[this.index].graph;},
       codepen: function codepen() {return projects[this.index].codepen;},
       github: function github() {return projects[this.index].github;} };
 
     _this4.handleNext = _this4.handleNext.bind(_this4);
     _this4.handlePrev = _this4.handlePrev.bind(_this4);
-    _this4.animateChange = _this4.animateChange.bind(_this4);return _this4;
+    _this4.animateChange = _this4.animateChange.bind(_this4);
+    _this4.set = _this4.set.bind(_this4);return _this4;
   }
 
   //disable previous button initially
   _createClass(Article, [{ key: 'componentDidMount', value: function componentDidMount() {
       $('.fa-arrow-circle-left').css('opacity', '0.1');
+
+      hasWebP().then(function () {
+        this.set(true); //if webp supported use initial array
+      }.bind(this), function () {
+        this.set(false); // else use fallback array
+      }.bind(this));
+
+    } }, { key: 'set', value: function set(
+
+
+
+    bool) {//set state according to type of image
+      if (bool) {
+        this.setState({
+          index: 0,
+          arr: src,
+          project: function project() {return projects[this.index].project;},
+          description: function description() {return projects[this.index].description;},
+          src: function src() {return this.arr[this.index];},
+          graph: function graph() {return projects[this.index].graph;},
+          codepen: function codepen() {return projects[this.index].codepen;},
+          github: function github() {return projects[this.index].github;} });
+
+      } else {
+        this.setState({
+          index: 0,
+          arr: fallback,
+          project: function project() {return projects[this.index].project;},
+          description: function description() {return projects[this.index].description;},
+          src: function src() {return this.arr[this.index];},
+          graph: function graph() {return projects[this.index].graph;},
+          codepen: function codepen() {return projects[this.index].codepen;},
+          github: function github() {return projects[this.index].github;} });
+
+      }
     }
+
 
 
     //animation between transition
@@ -369,7 +450,7 @@ About = function (_React$Component8) {_inherits(About, _React$Component8);functi
           React.createElement('hr', { 'class': 'anim' }),
           React.createElement('h3', { 'class': 'anim', id: 'head' }, 'SKILLS AND ABILITIES'),
 
-          React.createElement('p', { 'class': 'anim skills' }, 'HTML5, CSS3, jQuery, Javascript, React, Sass, Bootstrap, Redux, Java,   Git, Git Hub, Three, GASP, Command line Experience,  Adobe Illustrator and Photoshop, Working with Browser developer tools for debugging, creating Responsive and Cross Browser Compatible designs, FontAwesome, Devicon, Atom.'),
+          React.createElement('p', { 'class': 'anim skills' }, 'HTML5, CSS3, jQuery, Javascript, React, Sass, Bootstrap, Redux, Java,  Git, Git Hub, Three, GSAP, Command line Experience,  Adobe Illustrator and Photoshop, Working with Browser developer tools for debugging, optimized Images for web, creating Responsive and Cross Browser Compatible designs, FontAwesome, Devicon, Atom.'),
 
           React.createElement('div', { 'class': 'container' },
             arr)));
@@ -382,7 +463,17 @@ About = function (_React$Component8) {_inherits(About, _React$Component8);functi
 
 
 //CONTACT SECTION______________________________________________________________
-var Contact = function (_React$Component9) {_inherits(Contact, _React$Component9);function Contact() {_classCallCheck(this, Contact);return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));}_createClass(Contact, [{ key: 'render', value: function render()
+var Contact = function (_React$Component9) {_inherits(Contact, _React$Component9);function Contact() {_classCallCheck(this, Contact);return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));}_createClass(Contact, [{ key: 'componentDidMount', value: function componentDidMount()
+
+    {
+      hasWebP().then(function () {
+        $('#snap img').attr('src', 'http://a.webpurr.com/WjqG.webp');
+      }, function () {
+        $('#snap img').attr('src', 'https://i.ibb.co/mH3cvXx/mike-wilson-48019-unsplashedited.jpg');
+        // ... code to deal with the lack of WebP ...
+      });
+    } }, { key: 'render', value: function render()
+
     {
       return (
         React.createElement('section', { id: 'contact' },
@@ -441,10 +532,10 @@ ReactDOM.render(React.createElement(App, null), document.getElementById('app'));
 
 
 
-
 //jquery animation______________________________________________
 
 $(document).ready(function () {
+
   setTimeout(function () {
     //display app after load--------
     $('#loader').css('display', 'none');
